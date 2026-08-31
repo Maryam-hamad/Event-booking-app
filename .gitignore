@@ -1,0 +1,78 @@
+# ============================================================
+# Python / Django
+# ============================================================
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django local database
+db.sqlite3
+
+# Django collected static files
+staticfiles/
+static_root/
+
+# Django media uploads
+media/
+
+# ============================================================
+# Environment variables
+# !! .env.example is intentionally NOT listed here !!
+# ============================================================
+.env
+.env.local
+.env.*.local
+
+# ============================================================
+# Node / React
+# ============================================================
+
+# Dependencies
+node_modules/
+
+# React / Vite / Next.js build output
+build/
+dist/
+.next/
+out/
+
+# ============================================================
+# OS / Editor
+# ============================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# ============================================================
+# Misc
+# ============================================================
+
+# Byte-compiled / optimized files
+*.egg-info/
+*.egg
+.eggs/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
